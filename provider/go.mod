@@ -7,10 +7,10 @@ replace github.com/hashicorp/terraform-plugin-sdk/v2 => github.com/pulumi/terraf
 require (
 	github.com/pulumi/pulumi-terraform-bridge/v3 v3.62.0
 	github.com/pulumi/pulumi/sdk/v3 v3.89.0
-	github.com/bytebase/terraform-provider-bytebase v0.0.9
 )
 
 require (
+	github.com/bytebase/terraform-provider-bytebase v0.0.9 //indirect
 	cloud.google.com/go v0.110.4 // indirect
 	cloud.google.com/go/compute v1.20.1 // indirect
 	cloud.google.com/go/compute/metadata v0.2.3 // indirect
